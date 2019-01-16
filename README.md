@@ -1,6 +1,9 @@
 ## Repository.PKI.Gov
 
-A public repository for the U.S. Federal Public Trust TLS PKI.
+This is a **DRAFT** public repository for the U.S. Federal Public Trust TLS PKI.
+
+**All artifacts on this site (e.g., certificate files, policy documents, etc.) are for demonstration purposes only.**
+
 
 ### Built using
 
