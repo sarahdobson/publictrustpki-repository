@@ -1,0 +1,25 @@
+primary:
+  - text: Documents
+    href: /documents/
+  - text: FAQs
+    href: /faq/
+
+documents:
+  - text: Documents
+    href: /documents/
+  - text:  Certificate Policy
+    href: /documents/cp/
+  - text:  Certification Practice Statements
+    href: /documents/cps/
+  - text:  Audit Reports
+    href: /documents/audit/
+
+faq:
+    - text: FAQs
+      href: /faq/
+    - text: General Questions
+      href: /faq#general
+    - text: Policy Questions
+      href: /faq#policy
+    - text: Technical Questions
+      href: /faq#technical

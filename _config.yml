@@ -1,0 +1,39 @@
+# Using https://github.com/18F/uswds-jekyll
+theme: uswds-jekyll
+
+# OpenGraph / Twitter metadata
+title: Repository.PKI.Gov
+description: Home of the U.S. Federal Public Trust TLS PKI, which issues publicly trusted TLS certificates to Federal Government websites.
+
+# GA and GitHub data
+google_analytics_ua: ###UPDATE###
+repo: https://github.com/GSA/publictrustpki-repository
+
+exclude:
+- CONTRIBUTING.md
+- _config.yml
+- .travis.yml
+- .gitignore
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- vendor
+
+styles:
+  - /assets/css/main.css
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+collections:
+  pages:
+    output: true
+    #permalink: /:path/
+
+kramdown:
+  parse_block_html: true
