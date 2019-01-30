@@ -13,9 +13,8 @@
 		<li>URL: <a href="{{ site.baseurl }}/assets/issuing.cert.cer" target="_blank">TBD</a></li>
 		<li>SHA-256 Thumbprint: TBD</li>
 		<li>Distinguished Name: TBD</li>
-		<li>Serial #: TBD</li>
+		<li>Serial Number: TBD</li>
 		<li>Validity: TBD</li>
-
 	  </ul>
 
 	  <strong>Root CA</strong>	  
@@ -23,7 +22,7 @@
 		<li>URL: <a href="{{ site.baseurl }}/assets/root.cert.cer" target="_blank">TBD</a></li>
 		<li>SHA-256 Thumbprint: TBD</li>
 		<li>Distinguished Name: TBD</li>
-		<li>Serial #: TBD</li>
+		<li>Serial Number: TBD</li>
 		<li>Validity: TBD</li>
 	  </ul>
 	  
@@ -41,14 +40,12 @@
     <button class="usa-accordion-button"
       aria-expanded="false"
       aria-controls="c2">
-      What kind of certificates does this infrastructure issue?
+      What kind of certificates does the PKI issue?
     </button>
     <div id="c2" class="usa-accordion-content">
-	  The U.S. Federal Public Trust TLS PKI issues Domain Validated (DV) RSA-2048 with SHA-256 TLS certificates.
+	  The U.S. Federal Public Trust TLS PKI issues Domain-Validated (DV), RSA-2048 with SHA-256 TLS certificates. These certificates are compliant with the CA Browser Forum's <a href="https://cabforum.org/baseline-requirements" target="_blank">Baseline Requirements</a>.
 	  <br><br>
 	  Certificate request validation and issuance processes are automated through the use of the Automated Certificate Management Environment (ACME) protocol.
-	  <br><br>
-	  Certificates issued by the U.S. Federal Public Trust TLS PKI are compliant with the <a href="https://cabforum.org/baseline-requirements" target="_blank">CA Browser Forum Baseline Requirements</a>.
 	</div>
   </li>
   <li>
@@ -76,7 +73,7 @@
       What is the lifetime for U.S. Federal Public Trust TLS PKI certificates? For how long are they valid?
     </button>
     <div id="c4" class="usa-accordion-content">
-      Certificates are valid for 13 months, however we recommend automatically renewing your certificates every 12 months. 
+      Certificates will be valid for 13 months; however, we recommend that you automatically renew your certificates every 12 months. 
     </div>
   </li>
   <li>
@@ -86,9 +83,7 @@
       Does the U.S. Federal Public Trust TLS PKI generate or store the private keys for my certificates on its servers?
     </button>
     <div id="c5" class="usa-accordion-content">
-      No.
-	  <br><br>
-	  The private key is always generated and managed on your server, not by U.S. Federal Public Trust TLS PKI resources.
+      No, never.  The private keys are always generated and managed on your server.
     </div>
   </li>  
 </ul>
