@@ -24,12 +24,11 @@
       What is the relationship between the U.S. Federal Public Trust TLS PKI and the Federal PKI?
     </button>
     <div id="b3" class="usa-accordion-content">
-      The General Services Administration currently oversees the Federal Public Key Infrastructure (FPKI), a trust framework over two hundred Certification Authorities used to issue and manage person identity and enterprise device identity certificates for the Federal Government and mission partners. The FPKI is managed and operated as a bridged PKI, whose original purpose was intended to establish trust across related communities of interest. 
+      The General Services Administration currently oversees the Federal Public Key Infrastructure (FPKI), a trust framework comprised of over two hundred Certification Authorities used to issue and manage person identity and enterprise device identity certificates for the Federal Government and mission partners. The FPKI is managed and operated as a bridged PKI, whose original purpose was intended to establish trust across related communities of interest. 
 	  <br><br>
 	  The U.S. Federal Public Trust TLS PKI will be managed as a separate and distinct PKI.  It will support the automated issuance of publicly trusted TLS certificates to federal .gov and .mil web services.
-	  </ul>
-	  <br>
-	  The FPKI Policy Authority maintains the governance and voting rights to manage this Certificate Policy. 
+	  <br><br>
+	  The FPKI Policy Authority maintains the governance and voting rights to manage the U.S. Federal Public Trust TLS PKI Certificate Policy. 
 	  <br><br>
 	  Click <a href="https://idmanagement.gov/fpki" target="_blank">here</a> to learn more about the FPKI.
     </div>
@@ -42,7 +41,7 @@
     <div id="a3" class="usa-accordion-content">
       Hypertext Transfer Protocol Secure (HTTPS) gives users a level of security and privacy when connecting to websites and web services.  
 	  <br><br>
-	  The internet's fundamental design gives both visitors and website owners very little control over where communications travel or whose devices carry them. To ensure secure communications across the internet, traffic must be encrypted  from visitors' devices to website owners' devices.  That's exactly what HTTPS does. Without HTTPS, attackers can inject malware or tracking beacons, or otherwise monitor or change visitor interactions online.  
+	  The internet's fundamental design gives both visitors and website owners very little control over where communications travel or whose devices carry them. To ensure secure communications across the internet, traffic must be encrypted from visitors' devices to website owners' devices.  That's exactly what HTTPS does. Without HTTPS, attackers can inject malware or tracking beacons, or otherwise monitor or change visitor interactions online.  
 	  <br><br>
 	  Without HTTPS, website visitors have no guarantee of privacy or security as they browse. A visitor's communication with a website could be modified or monitored by anyone or anything "between" them. An attacker could be someone using that coffee shop WiFi (or the coffee shop itself), or someone who's hacked an out-of-date load balancer that website traffic flows through on its way around the internet.
     </div>
