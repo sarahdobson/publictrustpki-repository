@@ -1,0 +1,36 @@
+primary:
+  - text: Documentation
+    href: /docs/
+  - text: FAQ
+    href: /faq/
+
+cp:
+  - text: Revision History
+    href: /docs/cp/#revision-history
+  - text: 1. Introduction
+    href: /docs/cp/#1-introduction
+  - text: 2. Publication and Repository Responsibilities
+    href: docs/cp/#2-publication-and-repository-responsibilities
+  - text: 3. Identification and Authentication
+    href: docs/cp/#3-identification-and-authentication
+  - text: 4. Certificate Life-Cycle Operational Requirements
+    href: docs/cp/#4-certificate-life-cycle-operational-requirements
+  - text: 5. Management, Operational, and Physical Controls
+    href: docs/cp/#5-management-operational-and-physical-controls
+  - text: 6. Technical Security Controls
+    href: docs/cp/#6-technical-security-controls
+  - text: 7. Certificate, CRL, and OCSP Profiles
+    href: docs/cp/#7-certificate-crl-and-ocsp-profiles
+  - text: 8. Compliance Audit and Other Assessments
+    href: docs/cp/#8-compliance-audit-and-other-assessments
+  - text: 9. Other Business and Legal Matters
+    href: docs/cp/#9-other-business-and-legal-matters
+  - text: Appendix A Definitions
+    href: docs/cp/#appendix-a-definitions
+  - text: Appendix B Acronyms
+    href: docs/cp/#appendix-b-acronyms
+  - text: Appendix C References
+    href: docs/cp/#appendix-c-references
+  - text: Appendix D Certificate Profiles
+    href: docs/cp/#appendix-d-certificate-profiles
+
