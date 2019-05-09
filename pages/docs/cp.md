@@ -5,7 +5,7 @@ permalink: docs/cp/
 sidenav: cp
 ---
 
-**Last updated**: April 15, 2019 \| [Back to Documentation]({{site.baseurl}}/docs/)
+**Last updated**: May 9, 2019 \| [Back to Documentation]({{site.baseurl}}/docs/)
 <br><br>
 
 
