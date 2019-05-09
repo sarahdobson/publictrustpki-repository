@@ -9,13 +9,13 @@ sidenav: cp
 <br><br>
 
 
-<a class="usa-button usa-button-primary" href="{{site.baseurl}}/assets/US_Federal_Public_Trust_TLS_Certificate_Policy_v1_0_draft.pdf" target="blank">Download PDF</a>
+<a class="usa-button usa-button-primary" href="{{site.baseurl}}/assets/US_Federal_Public_Trust_TLS_Certificate_Policy_v1_0.pdf" target="blank">Download PDF</a>
 
 ## Revision History
 
 | **Ver.** | **Change Proposal** | **Description** | **Adopted** | **Effective Date** |
 | --- | --- | --- | --- | --- |
-| 1.0.0 | None | Version 1.0 of the Certificate Policy Adopted | \<TBD> | \<TBD> |
+| 1.0.0 | None | Version 1.0 of the Certificate Policy Adopted | May 9, 2019 | May 9, 2019 |
 
 
 ## 1. INTRODUCTION
