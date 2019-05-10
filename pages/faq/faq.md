@@ -24,22 +24,22 @@ The U.S. Federal Public Trust Transport Layer Security (TLS) Public Key Infrastr
 
 
 ### What kind of certificates will this service issue?
-The service will issue 2048-bit RSA certificates signed with the SHA-256 hashing algorithm. Certificates will have a validity **no longer** than 13-months and will be published to **at least** two CT Logs.
+The service will issue 2048-bit RSA certificates signed with the SHA-256 hashing algorithm. Certificates will be valid for **no longer** than 13 months and will be published to **at least** two CT Logs.
 
 
 ### When will this service be available?
-There's a lot that goes into building a publicly-trusted Public Key Infrastructure.
-- Policy, practices, and procedures must be written.
-- Certification Authorities need to be built and audited.
-- Applications must be submitted to commercial trust store and CT Log operators to facilitate global trust.
-- If applications are approved, the Root CA signing certificate must be globally distributed to operating-systems and web-browsers.
+There's a lot that goes into building a publicly-trusted PKI. GSA and DISA must perform the following tasks:
+- write policies, practices, and procedures.
+- build and audit Certification Authorities (CA).
+- submit applications to commercial trust store and CT Log operators to facilitate global trust.
+- distribute the Root CA signing certificate globally to operating systems and web browsers.
 
-We **cannot** guarantee commercial trust store operators like Microsoft, Apple, or Mozilla will approve our application for distribution. **Best-case scenario**, initial issuance of publicly-trusted TLS certificates could begin **Q1 FY 2021**.
+We **cannot** guarantee commercial trust store operators like Microsoft, Apple, or Mozilla will approve our application for distribution. **Best-case scenario**, we could begin issuing publicly-trusted TLS certificates **Q1 FY 2021**.
 
 
 ### What are the requirements to use this service?
 - The service will only issue certificates to **federal** .gov and .mil web services.
-- Web services must be **Internet-accessible** to communicate with the Issuing Certification Authority (CA) for certificate issuance.
+- Web services must be **internet-accessible** to communicate with the Issuing CA for certificate issuance.
 - Certificate issuance must take place using the **Automated Certificate Management Environment** protocol. **No human Registration Authorities.**
 - Certificates will be published to **at least** two (2) publicly-accessible CT Logs.
 - Certificate validity will be limited to **13 months or less**.
@@ -50,7 +50,7 @@ We're figuring this out. We'll have more information for you shortly.
 
 
 ### What is the relationship between the U.S. Federal Public Trust TLS PKI and the Federal PKI?
-The GSA currently oversees the Federal Public Key Infrastructure (FPKI), a trust framework comprised of over 150 Certification Authorities used to issue and manage person identity and enterprise device identity certificates for the Federal Government and mission partners. The FPKI is managed and operated as a bridged PKI, whose original purpose was intended to establish trust across related communities of interest. 
+The GSA currently oversees the Federal Public Key Infrastructure (FPKI). FPKI is a trust framework comprised of over 150 CAs that issue and manage person identity and enterprise device identity certificates for the Federal Government and mission partners. The GSA manages and operates FPKI as a bridged PKI, whose original purpose was intended to establish trust across related communities of interest. 
 
 The U.S. Federal Public Trust TLS PKI will be managed as a separate and distinct PKI. It will support the automated issuance of publicly trusted TLS certificates to federal DotGov and DotMil web services. 
 
